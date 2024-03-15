@@ -108,5 +108,48 @@
         }
       ]
     }
+  },
+  {
+    "id": "0004",
+    "type": "taco",
+    "name": "Vegetarian Taco",
+    "price": 2.99,
+    "ingredients": {
+      "protein": {
+        "name": "Tofu",
+        "preparation": "Grilled"
+      },
+      "salsa": {
+        "name": "Chipotle Mayo",
+        "spiciness": "Mild"
+      },
+      "toppings": [
+        {
+          "name": "Lettuce",
+          "quantity": "1 cup",
+          "ingredients": ["Iceberg Lettuce"]
+        },
+        {
+          "name": "Cheese",
+          "quantity": "1/2 cup",
+          "ingredients": ["Cheddar Cheese", "Monterey Jack Cheese"]
+        },
+        {
+          "name": "Guacamole",
+          "quantity": "2 tablespoons",
+          "ingredients": ["Avocado", "Lime Juice", "Salt", "Onion", "Cilantro"]
+        },
+        {
+          "name": "Sour Cream",
+          "quantity": "2 tablespoons",
+          "ingredients": ["Sour Cream"]
+        },
+        {
+          "name": "Queso Fresco",
+          "quantity": "1/4 cup",
+          "ingredients": ["Queso Fresco"]
+        }
+      ]
+    }
   }
 ]
