@@ -22,16 +22,16 @@ app.post("/recipe", (req, res) => {
   // Renderizar la página con el contenido correspondiente al botón seleccionado
   switch (choice) {
     case "chicken":
-      res.render("index.ejs", { recipe: getRecipe("Chicken Taco") });
+      recipe = getRecipe("Chicken Taco");
       break;
     case "beef":
-      res.render("index.ejs", { recipe: getRecipe("Beef Taco") });
+      recipe = getRecipe("Beef Taco");
       break;
     case "fish":
-      res.render("index.ejs", { recipe: getRecipe("Fish Taco") });
+      recipe = getRecipe("Fish Taco");
       break;
     case "vegetarian":
-      res.render("index.ejs", { recipe: getRecipe("Vegetarian Taco") });
+      recipe = getRecipe("Vegetarian Taco");
       break;
   }
 
